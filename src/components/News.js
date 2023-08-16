@@ -16,7 +16,7 @@ const News = ()=> {
     const [index, setIndex] = useState(24);
     const [shownews, setShownews] = useState([]);
 
-    const url = 'https://crypto-news-live3.p.rapidapi.com/news';
+    const url = 'https://crypto-news-live9.p.rapidapi.com/news/CryptoNews';
     const loadMore = () => {
         // console.log(index);
         const newIndex = index+Limit;

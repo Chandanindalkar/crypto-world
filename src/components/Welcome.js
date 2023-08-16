@@ -109,13 +109,18 @@ function Welcome() {
     <div  className='wel_container'>
       <div >
         <h1 ref={crypto} className='ques1'>
-        What is Crypto?
+        What is Cryptocurrency?
         </h1>
       </div>
 
       <div ref={cdef} className='cdef_div'>
         <p className='defination'>
-        A crypto or cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation.
+        A crypto or cryptocurrency is a digital or virtual currency that is secured by cryptography, 
+        which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are 
+        decentralized networks based on blockchain technology—a distributed ledger enforced by a 
+        disparate network of computers. A defining feature of cryptocurrencies is that they are 
+        generally not issued by any central authority, rendering them theoretically immune to 
+        government interference or manipulation.
         </p>
       </div>
 
@@ -125,8 +130,9 @@ function Welcome() {
         </h1>
 
         <p ref={serdef} className='defination2'>
-          We provide you the latest news about the crypto and the trending crypto's, volume gainers and losers in 24hrs, and a lot more, percentage changed in crypto and you can also search your crypto here. 
-          The news is provided through crypto-news-live3 API and the everything rest is provided by coingecko API.
+          We provide you the latest news about the crypto and the trending crypto's, volume gainers and losers in 24hrs, 
+          and a lot more, percentage changed in crypto and you can also search your crypto here. 
+          The news is provided through crypto-news-live9 API and the everything rest is provided by coingecko API.
         </p>
 
       </div>
